@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Proj2</string>
+    <string name="title_activity_main2">Proj2</string>
+    <string name="title_activity_main3">Proj2</string>
+    <string name="title_activity_main4">Proj2</string>
+    <string name="hello_square">Hello Square</string>
+    <string name="senator1">Name: \nBarbara Boxer\nParty: \nDemocratic Party</string>
+    <string name="senator2">Name: \nDianne Feinstein\nParty: \nDemocratic Party</string>
+    <string name="house">Name: \nNancy Pelosi\nParty: \nDemocratic Party</string>
+    <string name="results" formatted="false">2012 Presidential Vote\nCalifornia\nSan Francisco\nObama 100% of Votes\nRomney 0% of Votes</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Proj2</string>
+    <string name="zipcode">Enter a zipcode:</string>
+    <string name="entry">ZIPCODE</string>
+    <string name="or">OR</string>
+    <string name="current_location_button">Use Current Location</string>
+    <string name="zipcode_button">Go!</string>
+    <string name="represent">Represent!</string>
+    <string name="senator1">Barbara Boxer\nDemocratic Party\nhttps://www.boxer.senate.gov/\nsenator@boxer.senate.gov</string>
+    <string name="senator2">Dianne Feinstein\nDemocratic Party\nhttp://www.feinstein.senate.gov/public/\nsenator@feinstein.senate.gov</string>
+    <string name="house">Nacny Pelosi\nDemocratic Party\nhttps://pelosi.house.gov/\nAmericanVoices@mail.house.gov</string>
+    <string name="senator1_detailed">Barbara Boxer\nDemocratic Party\nJanuary 3, 2017\nCommittees: Select Committee on Ethics, Environment and
+        Public Works Committee, Foreign Relations Committee\nRecent Bills:S. 2487: Female Veteran Suicide Prevention Act, S. 2412: Tule Lake
+        National Historic Site Establishment Act of 2015, S. 2204: End of Suffering Act of 2015</string>
+    <string name="senator2_detailed">Dianne Feinstein\nDemocratic Party\nJanuary 3, 2019\nCommittees: Appropriations Committee,
+        Select Committee on Intelligence, Judiciary Committee, Rules and Administration Committee\nRecent Bills: S. 2568: California Desert
+        Conservation, Off-Road Recreation, and Renewable Energy Act, S. 2552: Interstate Threats Clarification Act of 2016, S. 2533: California
+        Long-Term Provisions for Water Supply and Short-Term Provisions for Emergency Drought Relief ...</string>
+    <string name="house_detailed">Nacny Pelosi\nDemocratic Party\nJanuary 3, 2017\nCommittees: None\nRecent Bills: 
+        H.R. 4290: Puerto Rico Emergency Financial Stability Act of 2015, H.Res. 355: Raising a question of the privileges of 
+        the House., H.R. 396: For the relief of Maria Carmen Castro Ramirez and J. Refugio Carreno Rojas.</string>
+</resources>

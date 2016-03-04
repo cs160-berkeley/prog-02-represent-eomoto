@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="140dp"
+        android:id="@+id/gen_sen2_back"
+        android:src="#1530cd"
+        android:layout_below="@+id/gen_sen1_pic"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="onClick"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="140dp"
+        android:id="@+id/gen_sen1_back"
+        android:src="#1530cd"
+        android:layout_above="@+id/gen_sen2_back"
+        android:layout_alignParentEnd="true"
+        android:onClick="onClick"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="140dp"
+        android:id="@+id/gen_house_back"
+        android:src="#1530cd"
+        android:layout_below="@+id/gen_sen2_pic"
+        android:layout_toStartOf="@+id/gen_house"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:onClick="onClick"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/gen_sen1_pic"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/barbara_boxer"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="onClick"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/gen_sen2_pic"
+        android:src="@drawable/dianne_feinstein"
+        android:layout_gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/gen_house"
+        android:onClick="onClick"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/gen_house_pic"
+        android:src="@drawable/nancy_pelosi"
+        android:layout_gravity="bottom"
+        android:layout_alignTop="@+id/gen_house_back"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:onClick="onClick"
+        android:clickable="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gen_sen1"
+        android:layout_alignTop="@+id/gen_sen1_pic"
+        android:text="@string/senator1"
+        android:layout_alignBottom="@+id/gen_sen1_pic"
+        android:layout_toEndOf="@+id/gen_sen1_pic"
+        android:textSize="13dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gen_sen2"
+        android:text="@string/senator2"
+        android:textSize="13dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:layout_above="@+id/gen_house_back"
+        android:layout_alignEnd="@+id/gen_sen1"
+        android:layout_toEndOf="@+id/gen_sen2_pic"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gen_house"
+        android:text="@string/house"
+        android:textSize="13dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBottom="@+id/gen_house_pic"
+        android:layout_toEndOf="@+id/gen_house_pic"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+</RelativeLayout>

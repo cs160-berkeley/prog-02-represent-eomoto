@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ellenomoto.proj2.MainActivity"
+    tools:deviceIds="wear_round">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/barbara_boxer"
+        android:textAlignment="center"
+        android:background="@drawable/flag"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/editText"
+        android:text="@string/senator1"
+        android:clickable="false"
+        android:background="#000abf"
+        android:textSize="11dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textIsSelectable="true"
+        android:singleLine="false"
+        android:selectAllOnFocus="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView" />
+
+</RelativeLayout>

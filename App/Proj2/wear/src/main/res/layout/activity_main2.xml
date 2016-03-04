@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    tools:deviceIds="wear_round">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sen2_pic_watch"
+        android:src="@drawable/dianne_feinstein"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/flag" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sen2_text_watch"
+        android:text="@string/senator2"
+        android:clickable="false"
+        android:background="#000abf"
+        android:textSize="11dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textIsSelectable="true"
+        android:singleLine="false"
+        android:selectAllOnFocus="false"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="143dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
